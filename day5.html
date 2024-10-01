@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration</title>
+    <style>
+        body{
+            background-color: #f8fdfe;
+        }
+        h1{
+            text-align: center;
+        }
+        form {
+  
+   color: #000000;
+   overflow:scroll;
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: #7445a0;
+}
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="https://sheetdb.io/api/v1/3sahv7nqg9hlj" method="post">
+        <label for="Full Name">Full Name:</label>
+<input type="text" name="data[Name]" id="name"placeholder="Achint singh sir">
+
+<label for="Email">Email:</label>
+<input type="text" name="data[Email]" id="name"placeholder="Type your Email">
+
+<label for="Full Name">password:</label>
+<input type="password" name="data[Password]" id="name"placeholder="password">
+
+<label for="Full Name">D.O.B:</label>
+<br>
+<input type="datetime-local" name="date[D.B.O]" id="Date"placeholder="Date of birth">
+<br><br>
+<label for="Gender">Gender:</label>
+<input type="radio" name="data[Gender]" id="Gender" value="male">
+<label for="male">male</label>
+<input type="radio" name="data[Gender]" id="Gender" value="male">
+<label for="female">female</label>
+<input type="radio" name="data[Gender]" id="Gender" value="male">
+<label for="transgender">transgender</label>
+<br><br>
+<label for="Hobbies:">Hobbies</label>
+<input type="checkbox" name="data[Gym]" id="Gym">
+<label for="Gym">Gym</label>
+<input type="checkbox" name="data[football]" id="football">
+<label for="football">football</label>
+<input type="checkbox" name="data[cricket]" id="cricket">
+<label for="cricket">cricket</label>
+
+<br><br>
+<label for="Full Name">Phone No:</label>
+<input type="text" name="data[Phone number]" id="name"placeholder="Enter your number">
+
+<label for="coures">Select coures</label>
+<select name="data[coures]" id="coures">
+  <option value="1">Python </option>
+  <option value="2">Java with DSA</option>
+  <option value="3">Web Devlopment</option>
+  <option value="4">Data Analytics</option>
+</select>
+<br><br>
+<label for="image">profile pic</label>
+<input type="file">
+<label for="Massage"></label>
+<textarea name="data[Massage]" id="" cols="30" rows="10"placeholder="tell me about your self"></textarea>
+
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
